@@ -29,7 +29,7 @@ body {
 
 .wrapper .icon {
   position: relative;
-  background: #ffffff;
+  background: #fff;
   border-radius: 30%;
   padding: 15px;
   margin: 10px;
@@ -45,6 +45,10 @@ body {
   transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
+.wrapper .icon a {
+
+  color: #000;
+}
 .wrapper .tooltip {
   position: absolute;
   top: 10px;
@@ -89,34 +93,34 @@ body {
 .wrapper .tiktok:hover,
 .wrapper .tiktok:hover .tooltip,
 .wrapper .tiktok:hover .tooltip::before {
-  background: #3b2e40;
+  background: #39B5E0;
   color: #ffffff;
 }
 
 .wrapper .dribbble:hover,
 .wrapper .dribbble:hover .tooltip,
 .wrapper .dribbble:hover .tooltip::before {
-  background: #f76a8c;
+  background: #FD8A8A;
   color: #ffffff;
 }
 
 .wrapper .instagram:hover,
 .wrapper .instagram:hover .tooltip,
 .wrapper .instagram:hover .tooltip::before {
-  background: #E4405F;
+  background: #EB455F;
   color: #ffffff;
 }
 
 .wrapper .github:hover,
 .wrapper .github:hover .tooltip,
 .wrapper .github:hover .tooltip::before {
-  background: #333333;
+  background: #3E8E7E;
   color: #ffffff;
 }
 
 .wrapper .youtube:hover,
 .wrapper .youtube:hover .tooltip,
 .wrapper .youtube:hover .tooltip::before {
-  background: #CD201F;
+  background: #F55050;
   color: #ffffff;
 }
